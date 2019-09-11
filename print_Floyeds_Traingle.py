@@ -1,5 +1,5 @@
 number = int(input("input number"))
-sum=0
+sum = 0
 
 for row in range(1, number + 1):
     for cols in range(1, row):

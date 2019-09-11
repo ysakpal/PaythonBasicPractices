@@ -6,7 +6,6 @@ for i in name:
 
 print(sum)
 
-
 """
 Enter Your Number>? 1234567
 28
