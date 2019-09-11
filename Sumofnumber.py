@@ -1,16 +1,13 @@
-name = input("Enter Your Name")
+name = input("Enter Your Number")
+sum = 0
 
-for i in range(1, len(name) + 1):
-    for j in range(1, i):
-        print(name[j], end="")
-    print()
+for i in name:
+    sum = sum + int(i)
+
+print(sum)
+
 
 """
-out put
-p
-py
-pyt
-pyth
-pytho
-python
+Enter Your Number>? 1234567
+28
 """
